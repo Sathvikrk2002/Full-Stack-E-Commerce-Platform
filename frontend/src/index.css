@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --duration: 15;
+    --anchor: 90;
+    --color-from: #ffaa40;
+    --color-to: #9c40ff;
+    --delay: 0;
+  }
+}
+
+body {
+  @apply bg-gray-950 text-gray-100;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.border-beam {
+  --duration: 15;
+  --anchor: 90;
+  --color-from: #ffaa40;
+  --color-to: #9c40ff;
+  --delay: 0;
+}
